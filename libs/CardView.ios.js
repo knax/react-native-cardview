@@ -14,6 +14,7 @@ export default class CardView extends Component {
           shadowRadius: cardElevation,
           shadowOpacity: shadowOpacity,
           borderRadius: cornerRadius,
+          backgroundColor: 'white',
         }, this.props.style]}>
           {this.props.children}
         </View>
@@ -22,6 +23,7 @@ export default class CardView extends Component {
       return(
         <View style={[{
           borderRadius: cornerRadius,
+          backgroundColor: 'white',
         }, this.props.style]}>
           {this.props.children}
         </View>
